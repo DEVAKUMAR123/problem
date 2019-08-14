@@ -5,8 +5,8 @@ int main(void) {
 	scanf("%d",&n);
 	printf("Enter the year;");
 	if(n%4==0)
-	printf("%d is the leap year.",n);
+	printf("Yes");
 	else
-	printf("%d is the not leap year.",n);
+	printf("Not");
 	return 0;
 }
